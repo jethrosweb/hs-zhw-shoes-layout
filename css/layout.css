@@ -24,4 +24,13 @@
 
 /* Positioning Classes */
 
+.three_columns {
+  column-count: 3;
+}
+
+section {
+  overflow: visible;
+}
+
+
 
