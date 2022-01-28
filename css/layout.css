@@ -23,14 +23,47 @@
 }
 
 /* Positioning Classes */
+.container {
+  display: grid;
+  grid-column-gap: 20px;
+  grid-row-gap: 20px;
+  grid-template-columns: 32% 32% 32%;
+}
+
+#holiday-sale {
+  grid-column: 1 / span 3;
+}
+
+#featured-brands {
+  grid-column: 1 / span 3;
+  margin: 0;
+}
+
+#summer-grass {
+  grid-column: 1 / span 2;
+}
+
+#archive {
+  grid-column: 3 / span 1;
+}
+
+#lady-bugs {
+  grid-column: 1 / span 1;
+}
+
+#skaters {
+  grid-column: 2 / span 1;
+}
+
+#heels {
+  grid-column: 3 / span 1;
+}
 
 .three_columns {
   column-count: 3;
 }
 
-section {
-  overflow: visible;
-}
+
 
 
 
